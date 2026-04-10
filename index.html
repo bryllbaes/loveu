@@ -202,7 +202,6 @@
         </div>
     </div>
     
-    <script src="alarm.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js')
@@ -210,5 +209,6 @@
                 .catch(err => console.log('SW registration failed'));
         }
     </script>
+     <script src="alarm.js"></script>
 </body>
 </html>
